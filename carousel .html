@@ -12,7 +12,7 @@
 <body>
     <p class="h2">Now we see carousel</p>
 
-    <div id="carouselExample" class="carousel slide w-50">
+    <div id="carouselExample" class="carousel slide w-50 d-none">
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="images/team1.png" class="d-block w-100" alt="...">
@@ -34,7 +34,7 @@
         </button>
     </div>
 
-    <div id="carouselExampleSlidesOnly " class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleSlidesOnly " class="carousel slide d-none" data-bs-ride="carousel">
         <div class="carousel-inner w-50">
             <div class="carousel-item active">
                 <img src="images/team1.png" class="d-block w-100" alt="...">
@@ -52,9 +52,19 @@
     <div class="card" style="width: 18rem;">
         <img src="images/team4.png" class="card-img-top" alt="...">
         <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card text-bg-dark w-50 h-50 mt-5 text-sm-center">
+        <img src="images/banner.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
           <h5 class="card-title">Card title</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small>Last updated 3 mins ago</small></p>
         </div>
       </div>
 
